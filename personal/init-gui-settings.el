@@ -13,4 +13,4 @@
 ;; lines.  This is a more reliable replacement for longlines-mode.
 (setq line-move-visual nil)
 
-(load-theme 'solarized-dark t)
+(setq prelude-theme 'solarized-dark)
