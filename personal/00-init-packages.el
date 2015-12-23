@@ -12,6 +12,8 @@
 (setq prelude-packages (append '(
                                  solarized-theme
                                  buffer-move
+                                 powerline
+                                 transpose-frame
                                  ) prelude-packages))
 
 ;; Install my packages
@@ -22,3 +24,4 @@
 ;; (setq my-packages '(buffer-move))
 ;; http://pragmaticemacs.com/installing-and-setting-up-emacs/
 ;; (prelude-require-packages my-packages)
+(powerline-default-theme)
